@@ -13,7 +13,7 @@ img {
   height: auto;
 }
 
-.top-header {
+header {
 	background-color: white;
 	position: sticky;
 	top:0;
@@ -25,7 +25,7 @@ img {
 	align-items: center;
 }
 
-.top-header .name {
+header .name {
 	font-size: 26px;
 }
 
