@@ -13,6 +13,7 @@ img {
   height: auto;
 }
 
+
 header {
 	background-color: white;
 	position: sticky;
@@ -79,6 +80,12 @@ header .name {
   height: auto;
   display: block;
 }
+span.visually-hidden{
+    opacity: 1;
+    color: rgb(219 13 13);
+    background-color: rgb(255, 255, 255);	
+}
+
 
 #about-me {
 	flex: 2
@@ -106,12 +113,13 @@ header .name {
 	text-align: center;
 	padding-block: 2em;
 }
+
 .gallery .nav {
 	justify-content: center;
 }
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
-	color: #fff;
-	background-color: #BEB45A;
+color: #000000;
+	background-color: #d7c419;
 	border-radius:0 ;
 }
 .nav-pills .nav-link {
